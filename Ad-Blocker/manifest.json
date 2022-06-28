@@ -1,0 +1,15 @@
+{
+    "name": "Ad-Blocker by RoastedCashews",
+    "version": "1.0",
+    "description": "An Ad-Blocker made by team RoastedCashews",
+    "permissions":["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"] 
+    },
+    "icons": {
+        "16": "icons/RC Circle logo 16x16.png",
+        "48": "icons/RC Circle logo 48x48.png",
+        "128": "icons/RC Circle logo 128x128.png"
+    },
+    "manifest_version": 2
+}
